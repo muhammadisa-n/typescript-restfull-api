@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/muhammadisa226/typescript-restfull-api/issues"
   },
-  "homepage": "https://github.com/muhammadisa226/typescript-restfull-api#readme"
+  "homepage": "https://github.com/muhammadisa226/typescript-restfull-api#readme",
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
 }
