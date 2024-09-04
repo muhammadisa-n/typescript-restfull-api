@@ -1,0 +1,24 @@
+{
+  "name": "typescript-restfull-api",
+  "version": "1.0.0",
+  "description": "belajar typescript restfull api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadisa226/typescript-restfull-api.git"
+  },
+  "keywords": [
+    "typescript",
+    "api",
+    "restfull"
+  ],
+  "author": "Muhammad Isa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadisa226/typescript-restfull-api/issues"
+  },
+  "homepage": "https://github.com/muhammadisa226/typescript-restfull-api#readme"
+}
