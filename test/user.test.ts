@@ -30,3 +30,21 @@ describe('POST "api/users', () => {
     expect(response.body.data.name).toBe("Muhammad Isa");
   });
 });
+
+describe('POST "api/users/login', () => {
+  beforeEach(async () => {
+    await UserTest.create();
+  });
+  afterEach(async () => {
+    await UserTest.delete();
+  });
+  it("should login success", async () => {
+    const response = await supertest(web).post("/api/users/login").send({
+      username: "muhammadisa226",
+      password: "muhammadisa226",
+    });
+    logger.debug(response.body);
+    expect(response.status).toBe(200);
+    expect(response.body.data).toBeDefined();
+  });
+});

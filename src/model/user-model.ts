@@ -6,9 +6,13 @@ export type UserResponse = {
   token?: string;
 };
 
-export type createUserRequest = {
+export type CreateUserRequest = {
   username: string;
   name: string;
+  password: string;
+};
+export type LoginUserRequest = {
+  username: string;
   password: string;
 };
 
