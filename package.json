@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node dist/main.js",
+    "start:prod": "node main.js",
     "dev": "nodemon ./src/main.ts",
     "build": "npx tsc",
     "test": "jest"
