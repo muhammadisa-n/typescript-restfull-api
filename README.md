@@ -12,6 +12,18 @@ DATABASE_URL="mysql://username:password@host:port/databasename"
 npm install
 npx prisma migrate dev
 npx prisma generate
-npx tsc
-node dist/main,js
+
+```
+
+# Run Development
+
+```shell
+npm run dev
+```
+
+# Build To Production
+
+```shell
+npm run build
+npm start
 ```
