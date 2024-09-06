@@ -2,7 +2,9 @@
 
 # Setup Project
 
+```
 Create .env file
+```
 
 ```
 DATABASE_URL="mysql://username:password@host:port/databasename"
