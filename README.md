@@ -10,9 +10,14 @@ DATABASE_URL="mysql://username:password@host:port/databasename"
 
 ```shell
 npm install
-npx prisma migrate dev
-npx prisma generate
+```
 
+```shell
+npx prisma migrate dev
+```
+
+```shell
+npx prisma generate
 ```
 
 # Run Development
